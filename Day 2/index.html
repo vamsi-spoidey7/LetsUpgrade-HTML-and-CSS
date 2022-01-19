@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+    <h3>Please fill the below form for Course Enrollment</h3>
+    <form>
+        <label for="sname">Student Name: </label>
+        <input type="text" name="student-name" id="sname" required>
+        <br><br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob" required>
+        <br><br>
+        <label for="gen">Gender: </label>
+        <input type="radio" name="gender" class="gen" required>Male
+        <input type="radio" name="gender" class="gen" required>Female
+        <input type="radio" name="gender" class="gen" required>Others
+        <br><br>
+        <label for="add">Address: </label><br>
+        <textarea name="address" id="add" cols="30" rows="3"></textarea>
+        <br><br>
+        <label for="city">City: </label>
+        <input type="text" name="city" id="city" required>
+        <br><br>
+        <label for="state">State: </label>
+        <input type="text" name="state" id="state" required>
+        <br><br>
+        <label for="course">Intrested Course: </label>
+        <form>
+            <select name="course" id="course" required>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Java Script</option>
+                <option>React js</option>
+            </select>
+        </form>
+        <br>
+        <label for="feel">How you feel about the course: </label><br>
+        <textarea name="feel" id="feel" cols="30" rows="3"></textarea>
+        <br><br>
+        <label for="terms">Accept the terms and conditions:</label><br>
+        <input type="checkbox" name="terms" class="terms">Agree
+        <input type="checkbox" name="terms" class="terms">Disagree
+        <br><br><br>
+        <pre> <input type="submit">    <input type="reset"> </pre>
+    </form>
+</body>
+</html>
